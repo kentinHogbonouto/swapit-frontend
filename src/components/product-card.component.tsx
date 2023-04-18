@@ -1,4 +1,5 @@
 import React from "react";
+import ReactStars from 'react-stars'
 
 const ProductCard = () => {
   return (
@@ -8,17 +9,35 @@ const ProductCard = () => {
         className="card-img-top"
         alt="..."
       />
-      <div className="card-body">
+        <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
+         
+        <div>
+        <img 
+        src="https://images.pexels.com/photos/106839/pexels-photo-106839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        className="card-img-chair" 
+        alt="img-chair" 
+        height="200"
+        width="200"/>
+        <div>
+         <h5 className="card-title">Brown & White Wooden Lounge
+          </h5>
+          <ReactStars
+            count={5}
+            size={20}
+            color2={'#ffd700'} />
+         </div>
+        </div>
+        </div>
+          <br/>
         <a href="#" className="btn btn-primary">
           Go somewhere
         </a>
       </div>
-    </div>
   );
 };
 

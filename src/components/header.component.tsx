@@ -1,5 +1,6 @@
 import React from "react";
 import Syles from "./header.module.css";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -33,6 +34,9 @@ const Header = () => {
                 </a> |
                 <a className="nav-link" href="#">
                   Registration
+                </a> |
+                <a className="nav-link" href="#">
+                  Logout
                 </a>
               </li>
               <li className="nav-item">
