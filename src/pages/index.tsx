@@ -28,8 +28,6 @@ export default function Home() {
       <main>
         <Header />
         <Banner />
-        <ProductCard />
-        <Footer />
       </main>
     </>
   );
