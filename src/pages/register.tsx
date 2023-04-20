@@ -75,9 +75,9 @@ function register() {
                   alt="register image"
                 />
               </figure>
-              <Link href="/login" className="signup-image-link">
+              <a href="/login" className="signup-image-link">
                 I already have an account
-              </Link>
+              </a>
             </div>
           </div>
         </div>

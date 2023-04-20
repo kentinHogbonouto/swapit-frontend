@@ -16,9 +16,9 @@ function login() {
                   alt="login image"
                 />
               </figure>
-               <Link href="/register" className="signup-image-link">
+               <a href="/register" className="signup-image-link">
                   Create an account
-                </Link>
+                </a>
             </div>
 
             <div className="signin-form">
@@ -42,9 +42,9 @@ function login() {
                 </div>
                 <div className="form-group">
                    
-                <Link href="/resetpassword" className="signup-image-link">
+                <a href="/resetpassword" className="signup-image-link">
                    Forget Password
-                </Link>
+                </a>
                   
                 </div>
                 <div className="form-group form-button">

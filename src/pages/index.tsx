@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 
 import "bootstrap/dist/css/bootstrap.css"; 
 
@@ -9,7 +9,7 @@ import Footer from "@/components/footer.component";
 import ProductCard from "@/components/product-card.component";
 import Banner from "@/components/banner.component";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   let products = [1, 2, 3, 4, 5, 6, 7, 8]
