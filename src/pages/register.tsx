@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.css";
 
 function register() {
@@ -74,9 +75,9 @@ function register() {
                   alt="register image"
                 />
               </figure>
-              <a href="/login" className="signup-image-link">
+              <Link href="/login" className="signup-image-link">
                 I already have an account
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.css"; 
 
 function resetpassword() {
@@ -14,9 +15,9 @@ function resetpassword() {
                   alt="login image"
                 />
               </figure>
-              <a href="/register" className="signup-image-link">
+              <Link href="/register" className="signup-image-link">
                 Create an account
-              </a>
+              </Link>
             </div>
 
             <div className="signin-form d-flex flex-column align-items-center justify-content-center">
