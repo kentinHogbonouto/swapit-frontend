@@ -31,7 +31,7 @@ export default function Home() {
         <Banner />
         <div className="container">
           <div className="row">
-            {products.map((product) => (<ProductCard />))}
+            {products.map((product, i) => (<ProductCard key={1}/>))}
           </div>
         </div>
       </main>
