@@ -4,43 +4,66 @@ import Syles from "./header.module.css";
 const Header = () => {
   return (
     <header id="header-container">
-      <nav className="navbar navbar-expand bg-body-tertiary">
-        <div className="container-fluid justify-content-around">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Icon
+            Swapit
           </a>
           <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className={`navbar-nav ${Syles.navItemContainer}`}>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                Home
+                </a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Sell more fast, buy wisely !
-                </a>
-              </li>
-              <li className="nav-item d-flex align-items-center justify-content-between">
-                <a className="nav-link" href="#">
-                  Sign in
-                </a> |
-                <a className="nav-link" href="#">
-                  Registration
+                  Page
                 </a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-primary" href="#">
-                  Sell
+                <a className="nav-link active" aria-current="page" href="#">
+                  Products
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Blog
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Shop
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Contact
                 </a>
               </li>
             </ul>
+            <form className="d-flex" role="search">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              ></input>
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
           </div>
         </div>
       </nav>

@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.css"; // Add this line
 
 import Header from "@/components/header.component";
 import Footer from "@/components/footer.component";
+import ProductCard from "@/components/product-card.component";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,13 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3">
+              <ProductCard />
+            </div>
+          </div>
+        </div>
         <Footer />
       </main>
     </>
