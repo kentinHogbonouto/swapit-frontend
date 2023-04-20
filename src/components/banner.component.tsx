@@ -10,13 +10,31 @@ const Banner = () => {
           <div id="carouselExample" className="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <Image src="/images/promotion_bg.png" className="d-block w-100" alt="..." width={500} height={500}/>
+                <Image
+                  src="/images/promotion_bg.png"
+                  className="d-block w-100"
+                  alt="..."
+                  width={500}
+                  height={500}
+                />
               </div>
               <div className="carousel-item">
-                <Image src="/images/promotion_bg.png" className="d-block w-100" alt="..." width={500} height={500}/>
+                <Image
+                  src="/images/promotion_bg.png"
+                  className="d-block w-100"
+                  alt="..."
+                  width={500}
+                  height={500}
+                />
               </div>
               <div className="carousel-item">
-                <Image src="/images/promotion_bg.png" className="d-block w-100" alt="..." width={500} height={500}/>
+                <Image
+                  src="/images/promotion_bg.png"
+                  className="d-block w-100"
+                  alt="..."
+                  width={500}
+                  height={500}
+                />
               </div>
             </div>
             <button
@@ -25,7 +43,10 @@ const Banner = () => {
               data-bs-target="#carouselExample"
               data-bs-slide="prev"
             >
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
               <span className="visually-hidden">Previous</span>
             </button>
             <button
@@ -34,7 +55,10 @@ const Banner = () => {
               data-bs-target="#carouselExample"
               data-bs-slide="next"
             >
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
               <span className="visually-hidden">Next</span>
             </button>
           </div>
