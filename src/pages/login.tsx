@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css"; 
 
 function login() {
   return (
@@ -19,7 +20,7 @@ function login() {
             </div>
 
             <div className="signin-form">
-              <h2 className="form-title">Sign up</h2>
+              <h2 className="form-title">Login</h2>
               <form method="POST" className="register-form" id="login-form">
                 <div className="form-group">
                   <input
@@ -43,13 +44,11 @@ function login() {
                   </a>
                 </div>
                 <div className="form-group form-button">
-                  <input
+                  <button
                     type="submit"
-                    name="signin"
                     id="signin"
-                    className="form-submit"
-                    value="Log in"
-                  />
+                    className="btn btn-primary w-100"
+                  >Login</button>
                 </div>
               </form>
             </div>
