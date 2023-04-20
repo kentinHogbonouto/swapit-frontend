@@ -1,5 +1,4 @@
 import React from "react";
-import Syles from "./header.module.css";
 
 const Header = () => {
   return (
@@ -29,7 +28,18 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Page
+                  Sell more fast, buy wisely !
+                </a>
+              </li>
+              <li className="nav-item d-flex align-items-center justify-content-between">
+                <a className="nav-link" href="#">
+                  Sign in
+                </a> |
+                <a className="nav-link" href="#">
+                  Registration
+                </a> |
+                <a className="nav-link" href="#">
+                  Logout
                 </a>
               </li>
               <li className="nav-item">

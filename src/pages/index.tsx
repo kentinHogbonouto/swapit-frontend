@@ -1,10 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import { Inter } from "next/font/google";
 
-import styles from "@/styles/Home.module.css";
-import "bootstrap/dist/css/bootstrap.css"; // Add this line
+import "bootstrap/dist/css/bootstrap.css"; 
 
 import Header from "@/components/header.component";
 import Footer from "@/components/footer.component";
@@ -28,13 +26,7 @@ export default function Home() {
       </Head>
       <main>
         <Header />
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3">
-              <ProductCard />
-            </div>
-          </div>
-        </div>
+        <ProductCard />
         <Footer />
       </main>
     </>
