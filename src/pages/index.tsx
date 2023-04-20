@@ -12,6 +12,7 @@ import Banner from "@/components/banner.component";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  let products = [1, 2, 3, 4, 5, 6, 7, 8]
   return (
     <>
       <Head>
@@ -28,6 +29,11 @@ export default function Home() {
       <main>
         <Header />
         <Banner />
+        <div className="container">
+          <div className="row">
+            {products.map((product) => (<ProductCard />))}
+          </div>
+        </div>
       </main>
     </>
   );
