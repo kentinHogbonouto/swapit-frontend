@@ -1,5 +1,7 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css"; 
+import Link from "next/link";
+import "bootstrap/dist/css/bootstrap.css";
+
 
 function login() {
   return (
@@ -14,9 +16,9 @@ function login() {
                   alt="login image"
                 />
               </figure>
-              <a href="/register" className="signup-image-link">
-                Create an account
-              </a>
+               <a href="/register" className="signup-image-link">
+                  Create an account
+                </a>
             </div>
 
             <div className="signin-form">
@@ -39,9 +41,11 @@ function login() {
                   />
                 </div>
                 <div className="form-group">
-                  <a href="/resetpassword" className="signup-image-link">
-                    Forget Password
-                  </a>
+                   
+                <a href="/resetpassword" className="signup-image-link">
+                   Forget Password
+                </a>
+                  
                 </div>
                 <div className="form-group form-button">
                   <button

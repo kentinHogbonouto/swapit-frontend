@@ -27,12 +27,7 @@ export default function Home() {
         <Banner />
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
-              <h1 className="text-center">Featured Products</h1>
-            </div>
-          </div>
-          <div className="row">
-            {products.map((product) => (<ProductCard />))}
+            {products.map((index, product) => (<ProductCard key={index}/>))}
           </div>
         </div>
       </main>
