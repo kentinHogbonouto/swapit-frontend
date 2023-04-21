@@ -1,15 +1,11 @@
 import Head from "next/head";
 
-import { Inter } from "next/font/google";
-
 import "bootstrap/dist/css/bootstrap.css"; 
 
 import Header from "@/components/header.component";
 import Footer from "@/components/footer.component";
 import ProductCard from "@/components/product-card.component";
 import Banner from "@/components/banner.component";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   let products = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -31,7 +27,7 @@ export default function Home() {
         <Banner />
         <div className="container">
           <div className="row">
-            {products.map((product, i) => (<ProductCard key={1}/>))}
+            {products.map((index, product) => (<ProductCard key={index}/>))}
           </div>
         </div>
       </main>
