@@ -1,6 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import promotionImage from "../public/images/promotion_bg.png";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -13,7 +12,7 @@ const Banner = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
             est adipiscing in phasellus non in justo.
           </p>
-          <button type="submit" className="btn btn-danger">Shop Now</button>
+          <Link  className="btn btn-danger" href={"../register"}>Register Now</Link>
         </div>
         <div className="col-lg-6 d-flex justify-content-center align-items-center">
           <img
